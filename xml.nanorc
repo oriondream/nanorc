@@ -1,6 +1,6 @@
 ## Here is an example for xml files.
 ##
-syntax "xml" "\.([jrs]html?|sgml?|xml|xslt?|xacro?|?launch)$"
+syntax "xml" "\.([jrs]html?|sgml?|xml|xslt?|xacro?|launch?)$"
 color white  start="<" end=">"
 color green   "<[^> ]+"
 color green   ">"
