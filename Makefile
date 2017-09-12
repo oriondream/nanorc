@@ -29,6 +29,7 @@ install: all
 	@mkdir -p '$(DESTDIR)$(DIR)'
 	@install -p -m 0644 $(ALL) '$(DESTDIR)$(DIR)'
 	@echo 'Installed: $(DESTDIR)$(DIR)/*.nanorc'
+	@echo 'include ~/.nano/syntax/ALL.nanorc' > ~/.nanorc
 
 install-global:
 	@$(MAKE) --no-print-directory install DIR=/usr/local/share/nano
