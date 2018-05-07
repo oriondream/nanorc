@@ -30,8 +30,8 @@ install: all
 	@install -p -m 0644 $(ALL) '$(DESTDIR)$(DIR)'
 	@echo 'Installed: $(DESTDIR)$(DIR)/*.nanorc'
 	@echo 'include ~/.nano/syntax/ALL.nanorc' > ~/.nanorc
-	@echo 'set tabsize 4' > ~/.nanorc
-	@echo 'set tabstospaces' > ~/.nanorc
+	@echo 'set tabsize 4' >> ~/.nanorc
+	@echo 'set tabstospaces' >> ~/.nanorc
 
 install-global:
 	@$(MAKE) --no-print-directory install DIR=/usr/local/share/nano
