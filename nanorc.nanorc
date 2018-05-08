@@ -1,4 +1,4 @@
-syntax "nanorc" "nanorc$"
+syntax "_nanorc_" "nanorc$"
 header "^syntax +\""
 
 TYPE:     "^i?color[[:space:]]*(bright)?(white|black|red|blue|green|yellow|magenta|cyan)?(,(white|black|red|blue|green|yellow|magenta|cyan))?\>"
@@ -16,3 +16,5 @@ MACRO:    "^\+(TODO|LINT|STRING|BOOLEAN|FUNCTION|INI|(C|HASH)COMMENT)$"
 ESCAPE:   "\\.?"
 +HASHCOMMENT
 +LINT
+
+
