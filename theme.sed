@@ -1,4 +1,4 @@
-s|^PLAIN:|color black|
+s|^PLAIN:|color brightblack|
 s|^FUNCTION:|color brightblue|
 s|^STRING:|color yellow|
 s|^COMMENT:|color cyan|
